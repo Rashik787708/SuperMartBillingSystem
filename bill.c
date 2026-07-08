@@ -249,7 +249,7 @@ void printBill(){
                bill);
     }
 
-    saveProducts();      // Save updated stock
+    saveProducts();      
 
     printf("\n--------------------------\n");
     printf("Total Amount : %.2f\n",total);
