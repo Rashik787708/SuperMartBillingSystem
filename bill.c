@@ -178,7 +178,7 @@ void updateProduct(){
     printf("Enter New Quantity : ");
     scanf("%d",&p[index].quantity);
 
-    saveProducts();      // Save changes to file
+    saveProducts();     
 
     printf("\nProduct Updated Successfully!\n");
 }
@@ -203,7 +203,7 @@ void deleteProduct(){
 
     i--;
 
-    saveProducts();      // Save changes to file
+    saveProducts();  
 
     printf("\nProduct Deleted Successfully!\n");
 }
@@ -260,7 +260,7 @@ int main(){
 
     int choice;
 
-    loadProducts();      // Load products from products.txt
+    loadProducts();     
 
     if(!admin()){
         return 0;
